@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+    color:#f0f8ff;
+    font-family: sans-serif;
+}
+
+body{
+    background:linear-gradient(#000000 20%,#010151,#2a0649,#430960,maroon);
+}
+
+/* nav menu */
+
+.logo{
+    font-size: 1.5rem;
+    margin-left: 5rem;
+    color: white;
+}
+
+.logo:hover{
+    color: wheat;
+}
+
+li{
+    font-size: 1.1rem;
+    margin-left:11rem;
+}
+
+#menu{
+    color:white;
+}
+
+/* login form */
+
+.login-form{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid wheat;
+}
+
+.form-filed{
+    margin-top:1rem;
+    margin-left:-1.5rem;
+}
+
+#music-heading{
+    text-align: center;
+    margin-left:3rem;
+    margin-top:4rem;
+    text-shadow: 1px 1px 21px #ffffff;
+}
+
+.music-player{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.songs{
+    margin:0.5rem;
+    margin-top:3rem;
+    border-radius:1rem;
+}
+
+
+/* Videos */
+
+.videos-container{
+    margin-top:3rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.video{
+    margin:1rem;
+    height:15rem;
+    width: 25rem;
+    border-radius: 5px;
+}
+
+.shorts-container{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.shorts{
+    height: 23rem;
+    width: 13rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+}
+
+
+/* footer */
+
+footer{
+    margin-top:5rem;
+    margin-bottom:3rem;
+    text-align: center;
+}
